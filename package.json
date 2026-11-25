@@ -1,0 +1,17 @@
+{
+  "name": "github-kit",
+  "version": "1.0.0",
+  "description": "GitHub plugin for Google Antigravity with a zero-dependency MCP server, workflow skills, and git safety hooks.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "author": "Matias Sanchez Gonzalez <https://github.com/DevModee>",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "lint": "node scripts/lint.mjs"
+  }
+}
