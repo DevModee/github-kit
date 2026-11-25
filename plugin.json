@@ -1,0 +1,29 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "github-kit",
+  "displayName": "GitHub Kit",
+  "version": "1.0.0",
+  "description": "Full GitHub workflow for Antigravity: zero-dependency MCP server for PRs, issues, code reviews, Actions logs, and releases, plus workflow skills and git safety hooks.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "Matias Sanchez Gonzalez",
+    "url": "https://github.com/DevModee"
+  },
+  "homepage": "https://github.com/DevModee/github-kit",
+  "repository": "https://github.com/DevModee/github-kit",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "git",
+    "pull-requests",
+    "issues",
+    "github-actions",
+    "code-review",
+    "mcp"
+  ],
+  "suggestedPrompts": [
+    "Review the latest open pull request in this repository",
+    "Diagnose the most recent failing GitHub Actions run",
+    "List open issues labeled bug and summarize priorities"
+  ]
+}
